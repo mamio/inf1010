@@ -1,0 +1,7 @@
+Longueur de la laine : 3.15
+Longueur de la laine : 3.15
+Longueur de la laine avant la ccoupe : 2.0
+Longueur de la laine apres la coupe : 0.8
+
+Oui, dans les fonctions croitre et tondre, on devrait 
+entrer l'adresse de mouton en paramêtre.

@@ -1,0 +1,20 @@
+NombreComplexeCopier(NombreComplexe const& NombreACopier)
+{
+	reel_(NombreACopier.reel_);
+	imaginaire_(NombreACopier.imaginaire_);
+	bidon_ = new int(*(NombreACopier.bidon_));
+
+}
+
+NombreComplexe& NombreComplexe::operator=(NombreComplexe const& Nombre)
+{
+	if(this != &Nombre)
+	{
+		reel_ = Nombre.reel_;
+		imaginaire_ = Nombre.imaginaire_;
+		if(bidon_ != 0)
+		delete bidon_;
+		bidon_ = new int(*(Nombre.bidon_));
+	}
+ return *this;
+}

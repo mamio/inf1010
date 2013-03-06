@@ -1,0 +1,43 @@
+/****************************************************************************
+ * Fichier: main.cpp
+ * Auteur: William Bussiere
+ * Date: 2 juin 2011
+ * Description: Exercice intermediaire d'allocation dynamique 
+ *				sur le theme du tennis.
+ ****************************************************************************/
+
+#include "Balle.h"
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main()
+{
+	// A) Construisez 3 balles. 
+	// Deux de facon dynamimque (constructeur pa parametre(s))
+
+
+	// et une de facon automatique (constructeur pa parametre(s))
+
+
+	// B) Construisez 3 balles par defaut en le moins d'instruction(s) possible(s)
+
+
+	// C) Mettez les 6 balles construites dans un tableau dynamique de grandeur 6
+
+
+	// D) Afficher toutes les balles du tableau d'au moins 4 facons differentes
+	// Par facons differentes, on parle de l'acces a la methode Balle::afficher()
+
+
+	// E) Avec une boucle, augmentez le diametre des balles Spalding de 1cm
+
+
+	// F) Reaffichez les attributs des balles a travers une boucle (afficher())
+
+
+	// G) Detruisez convenablement la memoire pour eviter les fuites
+
+}

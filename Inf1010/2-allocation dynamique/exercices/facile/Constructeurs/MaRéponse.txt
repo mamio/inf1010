@@ -1,0 +1,9 @@
+B::B(int p)
+{
+	attribut_ = p
+}
+
+A::A(int p)
+{
+	attribut_ = new B(p)
+}
