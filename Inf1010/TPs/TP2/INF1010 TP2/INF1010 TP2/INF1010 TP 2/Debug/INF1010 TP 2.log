@@ -1,0 +1,36 @@
+﻿La génération a démarré 2013-02-15 08:06:22.
+     1>Projet "C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP2\INF1010 TP2\INF1010 TP2\INF1010 TP 2\INF1010 TP 2.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Triangle.cpp
+         Triangle.cpp
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(28): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(49): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(51): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(53): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(73): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(75): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(77): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(135): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(139): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(147): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(199): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(201): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(208): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(234): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(236): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(243): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(268): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(270): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\marie\google drive\poly\2e session\inf1010\tp2\inf1010 tp2\inf1010 tp2\inf1010 tp 2\triangle.cpp(277): warning C4018: '<' : incompatibilité signed/unsigned
+         Main.cpp
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP2\INF1010 TP2\INF1010 TP2\Debug\INF1010 TP 2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP2\INF1010 TP2\INF1010 TP2\Debug\INF1010 TP 2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP2\INF1010 TP2\INF1010 TP2\Debug\INF1010 TP 2.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Triangle.obj
+         LINK : C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP2\INF1010 TP2\INF1010 TP2\Debug\INF1010 TP 2.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+         INF1010 TP 2.vcxproj -> C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP2\INF1010 TP2\INF1010 TP2\Debug\INF1010 TP 2.exe
+     1>Génération du projet "C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP2\INF1010 TP2\INF1010 TP2\INF1010 TP 2\INF1010 TP 2.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:08.61

@@ -1,0 +1,12 @@
+N1 P1 Beaujolais
+N2 P2 Grave
+N2 P2 Cote-du-Rhone
+N3 P3 Monoprix
+N4 P4 Italien
+N5 P5 Australien
+N5 P5 Allemand
+N5 P5 Francais
+N6 P6 Canadien
+N7 P7 Americain
+N7 P7 Suedois
+stop

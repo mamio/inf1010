@@ -1,0 +1,20 @@
+﻿La génération a démarré 2013-02-15 13:26:30.
+     1>Projet "C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP3\INF1010 TP3\INF1010 TP3\INF1010 TP3.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt etudiant.cpp professeur.cpp
+         professeur.cpp
+         etudiant.cpp
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP3\INF1010 TP3\Debug\INF1010 TP3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP3\INF1010 TP3\Debug\INF1010 TP3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP3\INF1010 TP3\Debug\INF1010 TP3.lib" /MACHINE:X86 Debug\entreprise.obj
+         Debug\etudiant.obj
+         Debug\individu.obj
+         Debug\main.obj
+         Debug\professeur.obj
+         Debug\vinsetfromages.obj
+         INF1010 TP3.vcxproj -> C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP3\INF1010 TP3\Debug\INF1010 TP3.exe
+     1>Génération du projet "C:\Users\Marie\Google Drive\Poly\2e session\Inf1010\TP3\INF1010 TP3\INF1010 TP3\INF1010 TP3.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.00

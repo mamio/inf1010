@@ -1,0 +1,8 @@
+Etudiant N1 P1 GenieInformatique 2
+Etudiant N2 P2 GenieLogiciel 3
+Professeur N3 P3 GenieInformatique C-421
+Professeur N4 P4 GenieLogiciel M-5014
+Entreprise N5 P5 IBM 3 5
+Entreprise N6 P6 Siemens 4 8
+Entreprise N7 P7 Google 2 1
+stop
