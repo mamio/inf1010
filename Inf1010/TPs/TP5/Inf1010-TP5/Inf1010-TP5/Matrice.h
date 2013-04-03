@@ -34,6 +34,16 @@ private:
 
 };
 
+/***************************************************************************/
+/* Nom: Constructeur par défaut                                            */
+/* Description: Constructeur appelé lorsqu'aucun paramètre n'est entré     */
+/* Parametres: Aucun    	    									       */
+/* Valeur de retour: Aucune                                                */
+/* Remarque: Ce constructeur initialise une matrice vide 3x3               */
+/*			et initialise ses valeurs à 0.   	                		   */
+/*                     													   */
+/***************************************************************************/
+
 	template<typename T>
 	Matrice<T>::Matrice()
 	{
@@ -45,6 +55,18 @@ private:
 			donnees_[i] = new T[nbColonnes_];
 		}
 	}
+
+/***************************************************************************/
+/* Nom: Constructeur par paramètre                                         */
+/* Description: Constructeur appelé lorsqu'on veut initialiser une matrice */ 
+/*				vide de taille précise					                   */
+/* Parametres: nbLignes (IN) :	Nombre de lignes de la matrice		       */
+/*			   nbColonnes (IN) : Nombre de colonnes de la matrice		   */
+/* Valeur de retour: Aucune                                                */
+/* Remarque: Ce constructeur initialise une matrice vide à la taille	   */	
+/*			 demandée													   */
+/*                     													   */
+/***************************************************************************/
 
 	template<typename T>
 	Matrice<T>::Matrice(int nbLignes, int nbColonnes)
@@ -58,6 +80,16 @@ private:
 		}
 	}
 	
+/***************************************************************************/
+/* Nom: Constructeur par copie                                             */
+/* Description: Constructeur ayant comme paramètre une matrice à copier    */
+/* Parametres: uneMatrice (OUT) : Un objet de type Matrice 			       */
+/* Valeur de retour: Aucune                                                */
+/* Remarque: Crée une nouvelle matrice à partir d'une matrice existante en */
+/*			 copiant sa taille et ses données							   */
+/*                     													   */
+/***************************************************************************/
+
 	template<typename T>
 	Matrice<T>::Matrice( const Matrice <T>& uneMatrice)
 	{
@@ -74,6 +106,16 @@ private:
 		}
 	}
 
+/***************************************************************************/
+/* Nom: Desctructeur                                                       */
+/* Description: Afin de liberer de la mémoire, le destructeur peut         */
+/*              être appeler afin de détruire un objet de type Matrice     */
+/* Parametres: Aucun    							     			       */
+/* Valeur de retour: Aucune                                                */
+/* Remarque:    														   */
+/*                     													   */
+/***************************************************************************/
+
 	template<typename T>
 	Matrice<T>::~Matrice()
 	{
@@ -83,6 +125,19 @@ private:
 		}
 	}
 
+/***************************************************************************/
+/* Nom: operator()                                                         */
+/* Description: Cette fonction retourne la donnée situé à l'intérieur de la*/
+/*				matrice à la position entrée en paramètre				   */
+/* Parametres: nbLignes (IN) : ligne où se situe la donnée			       */
+/*			   nbColonnes (IN) : colonne oû se situe la donnée			   */
+/* Valeur de retour: T& : L'adresse de la donnée de type déterminé dans le */
+/*						  template										   */ 
+/* Remarque: La fonction vérifie dabord si la position est bien contenu    */
+/*			 dans la matrice  											   */
+/*                     													   */
+/***************************************************************************/
+
 	template<typename T>
 	T& Matrice<T>::operator()(int nbLignes, int nbColonnes) const
 	{
@@ -91,6 +146,18 @@ private:
 		else 
 			return donnees_[--nbLignes][--nbColonnes];	
 	}
+
+/***************************************************************************/
+/* Nom: operator<<                                                         */
+/* Description: Puisqu'il n'existe pas de fonction pour afficher un objet  */
+/*              de type Matrice, la surcharge de l'opérateur << est		   */
+/*              nécessaire afin de réaliser cette action                   */
+/* Parametres: ostr (OUT) : Une référence vers la librairie iostream       */
+/*              t (OUT) : Un objet de type Triangle                        */
+/* Valeur de retour: std::ostream&                                         */
+/* Remarque:    														   */
+/*                     													   */
+/***************************************************************************/
 
 	template<typename T2>
 	std::ostream& operator<<( std::ostream& ostr, const Matrice<T2>& m )
@@ -107,7 +174,7 @@ private:
 		return ostr;
 	}
 
-	/***********************************************************************/
+/***********************************************************************/
 /* Nom: operator>>                                                         */
 /* Description: Puisqu'il n'existe pas de fonction cin pour un objet       */
 /*              matrice, la surcharge de l'opérateur << était nécessaire  */
